@@ -35,7 +35,7 @@ class Collection
                 )->joinLeft(
                     ['gift_message' => $gift],
                     $gift . '.gift_message_id = sales_order.gift_message_id',
-                    ['gift_message' => $gift . '.message']
+                    ['message' => $gift . '.message']
                 );
         }
         return [$printQuery, $logQuery];

@@ -3,7 +3,7 @@
     "description": "Gift message on sales order grid",
     "type": "magento2-module",
     "license": "GPL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Dominic Watts",
