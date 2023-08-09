@@ -1,0 +1,33 @@
+{
+    "name": "dominicwatts/gridgiftmessage",
+    "description": "Gift message on sales order grid",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Dominic Watts",
+            "email": "dominic@pixie.agency"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "require": {
+        "magento/framework": "*",
+        "php": ">=7.1.0",
+        "magento/module-sales": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "PixieMedia\\GiftMessage\\": ""
+        }
+    }
+}
